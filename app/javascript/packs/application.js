@@ -9,6 +9,5 @@
 
 import 'bootstrap';
 
-$(function () {
-  $('[data-toggle="popover"]').popover()
-})
+import { loadDynamicBannerText } from '../components/banner';
+loadDynamicBannerText();
