@@ -1,4 +1,5 @@
-onst { environment } = require('@rails/webpacker')
+// config/webpack/environment.js
+const { environment } = require('@rails/webpacker')
 
 // Bootstrap 3 has a dependency over jQuery:
 const webpack = require('webpack')
